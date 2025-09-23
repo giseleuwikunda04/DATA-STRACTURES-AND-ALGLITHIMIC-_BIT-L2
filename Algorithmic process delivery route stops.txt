@@ -1,0 +1,66 @@
+ Algorithmic process (step-by-step algorithm) for each data structure used in the "Delivery Route Stops" project:
+
+1. Integers
+Goal: Calculate total, average, min, and max delivery values.
+
+Algorithm:
+1. Start
+2. Define integer list of deliveries: [10, 18, 12, 20]
+3. Calculate total: Sum all elements
+4. Calculate average: Total ÷ Number of elements
+5. Find minimum: Smallest element
+6. Find maximum: Largest element
+7. Display results
+
+2. Strings
+Goal: Create a summary string using f-strings.
+
+Algorithm:
+1. Start
+2. Store total and average values
+3. Create a formatted string: "Total: X | Average: Y"
+4. Display the string
+
+3. Booleans
+Goal: Check if average exceeds threshold and print message.
+
+Algorithm:
+1. Start
+2. Set threshold (e.g., 15)
+3. Compare: If average > threshold
+   - Print: "Above Standard"
+   - Else: Print: "Below Standard"
+
+4. Lists
+Goal: Modify and sort a list of names and deliveries.
+
+Algorithm:
+1. Start
+2. Define names = ["Alice", "Liliane", "Ange", "Diane"]
+3. Define deliveries = [10, 18, 12, 20]
+4. Add "Grace" with value 15
+5. Remove "Alice" and corresponding delivery
+6. Zip names and deliveries into tuples
+7. Sort zipped list by delivery value8. Display before and after
+
+5. Arrays
+Goal: Use array module to store and sum delivery values.
+
+Algorithm:
+1. Start
+2. Import array module
+3. Create fixed-size array: [10, 18, 12, 20]
+4. Compute sum of array elements
+5. Print the sum
+
+6. Dictionaries
+Goal: Manage delivery records using dictionaries.
+
+Algorithm:
+1. Start
+2. Define list of dictionaries with keys: id, name, value
+3. Update value of "Liliane" to 20
+4. Delete dictionary where name = "Alice"
+5. Append new record: {"id": 4, "name": "Diane", "value": 15}
+6. Loop through all records and sum up all value fields
+7. Display final records and total value
